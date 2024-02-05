@@ -1,0 +1,84 @@
+h1 {
+  font-size: 36px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  color: #2196F3;
+  margin: 0;
+}
+
+body {
+  background: #424242;
+}
+
+form {
+  width: 350px;
+  margin: 0px auto;
+}
+
+textarea {
+  resize: none;
+}
+
+.input-box {
+  background: none;
+  color: #ffffff8a;
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 335px;
+  border: none;
+  border-radius: 0px;
+  border-bottom: 1px solid #a1a1a183;
+  margin: 40px 0px;
+}
+
+
+.input-box:focus::placeholder {
+  color: #2196F3;
+  font-size: 19px;
+}
+
+.input-box:focus {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #2196F3;
+}
+
+.btn-box {
+  background: #fff;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  text-decoration: none;
+  outline: none;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.button-box {
+  width: 70%;
+  margin: auto;
+}
+
+.btn-box:hover {
+  text-shadow: 2px 2px 5px #424242;
+  font-weight: 500;
+}
+
+.btn-submit {
+  background: #2196F3;
+}
+
+.btn-submit:hover {
+  background: #4caf50;
+}
+
+.btn-cancel {
+  background: #fff;
+}
+
+.btn-cancel:hover {
+  background: tomato;
+}
